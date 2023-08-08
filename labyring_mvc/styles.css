@@ -1,0 +1,47 @@
+body {
+    background-color: pink;
+}
+
+table.tr {
+    border-spacing: 0;
+    display: inline-block;
+}
+
+td {
+    background-color: white;
+    padding: 0;
+    grid-row: 1 span;
+}
+
+td.room {
+    width: 40px;
+    height: 40px;
+}
+
+td.wall {
+    background-color: black;
+}
+
+td.noWall {
+    background-color: white;
+}
+
+td.small {
+    width: 10px;
+}
+
+td.wide {
+    width: 40px;
+}
+
+td.high {
+    height: 40px;
+}
+
+td.low {
+    height: 10px;
+}
+/* 
+#app {
+    display: inline-block;
+} */
